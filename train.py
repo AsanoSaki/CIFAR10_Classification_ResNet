@@ -3,7 +3,7 @@ import yaml
 import torchvision.transforms as transforms
 from torch.utils.data import DataLoader, Subset
 from sklearn.model_selection import train_test_split
-from data.dataset import CifarDataset
+from util.dataset import CifarDataset
 from models.ResNet34 import PretrainedResNet34, ResNet34
 from util.trainer import trainer
 
