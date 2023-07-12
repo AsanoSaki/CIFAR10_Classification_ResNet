@@ -1,0 +1,14 @@
+DATASET:
+  TRAIN_DATASET_PATH: 'data/train'
+  TRAIN_LABELS_PATH: 'data/trainLabels.csv'
+  CATEGORY_NUM: 10
+  TRAIN_RATIO: 0.8
+DATALOADER:
+  BATCH_SIZE: 128
+  NUM_WORKERS: 0
+TRAINER:
+  EPOCHS: 15
+  LR: 0.005
+  DEVICE: 'cuda'
+  WRITE_PATH: 'logs'
+  SAVE_PATH: 'save/CIFAR10_ResNet.params'
