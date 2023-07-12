@@ -22,7 +22,7 @@ Loss（蓝线为训练 Loss，红线为验证 Loss）：
 
 
 
-![loss](logs\loss.svg)
+![loss](logs/loss.svg)
 
 
 
@@ -30,4 +30,4 @@ Accuracy（蓝线为训练 Accuracy，红线为验证 Accuracy）：
 
 
 
-![acc](logs\acc.svg)
+![acc](logs/acc.svg)
